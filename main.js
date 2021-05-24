@@ -19,9 +19,6 @@ const like=(e) =>{
     });
 }
 
-for (const glyph of articleHearts) {
-  glyph.addEventListener("click", likeCallback);
-}
 
 
 
