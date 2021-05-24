@@ -15,7 +15,7 @@ const like=(e) =>{
       const modal = document.getElementById("modal");
       modal.className = "";
       modal.innerText = e;
-      setTimeout(() =>  modal.className = "hidden", 3000);
+      setTimeout(() =>  modal.className = "hidden", 2000);
     });
 }
 
