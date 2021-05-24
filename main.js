@@ -9,6 +9,7 @@ const like=(e) =>{
   mimicServerCall("url")
     .then(()=>{
        heart.innerText===EMPTY_HEART?heart.innerText=FULL_HEART:heart.innerText=EMPTY_HEART;
+       
        heart.style.color = colorStates[heart.style.color];
     })
     .catch(e =>{
