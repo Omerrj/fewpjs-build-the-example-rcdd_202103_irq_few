@@ -21,7 +21,7 @@ const like=(e) =>{
     });
 }
 
-Array.from(glyphs).forEach((glyph)=>{
+[...glyphs].forEach((glyph)=>{
   console.log('hello')
 })
 
