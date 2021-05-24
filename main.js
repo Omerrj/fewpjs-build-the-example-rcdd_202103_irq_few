@@ -11,7 +11,7 @@ const like=(e) =>{
     .then(()=>{
       if(heart.innerText===EMPTY_HEART){
         heart.innerText=FULL_HEART
-        heart.style.color = red
+        heart.style.color = 'red'
         
       }else{
         heart.innerText=EMPTY_HEART
