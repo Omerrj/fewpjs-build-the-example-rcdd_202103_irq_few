@@ -14,7 +14,7 @@ const like=(e) =>{
         heart.style.color = red
         
       }else{
-        
+        heart.innerText=EMPTY_HEART
       }
 
        
