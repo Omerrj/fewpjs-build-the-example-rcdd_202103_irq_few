@@ -8,7 +8,7 @@ const like=(e) =>{
   const heart = e.target;
   mimicServerCall("url")
     .then(()=>{
-       heart.innerText = glyphStates[heart.innerText];
+       heart.innerText===EMPTY_HEART?heart.innerText=FULL_HEART:heart.innerText=EMPTY_HEART
        heart.style.color = colorStates[heart.style.color];
     })
     .catch(e =>{
