@@ -11,7 +11,7 @@ const like=(e) =>{
        heart.innerText = glyphStates[heart.innerText];
        heart.style.color = colorStates[heart.style.color];
     })
-    .catch(function(error) {
+    .catch((e) =>{
       const modal = document.getElementById("modal");
       modal.className = "";
       modal.innerText = error;
