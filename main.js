@@ -9,9 +9,15 @@ const like=(e) =>{
   const heart = e.target;
   mimicServerCall("url")
     .then(()=>{
-       heart.innerText===EMPTY_HEART?heart.innerText=FULL_HEART:heart.innerText=EMPTY_HEART;
+      if(heart.innerText===EMPTY_HEART){
+        heart.innerText=FULL_HEART
+        heart.style.color = red
+        
+      }else{
+        
+      }
+
        
-      // heart.style.color = 
     })
     .catch(e =>{
       const modal = document.getElementById("modal");
