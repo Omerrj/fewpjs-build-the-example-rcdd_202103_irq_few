@@ -10,7 +10,7 @@ const like=(e) =>{
     .then(()=>{
        heart.innerText===EMPTY_HEART?heart.innerText=FULL_HEART:heart.innerText=EMPTY_HEART;
        
-       heart.style.color = colorStates[heart.style.color];
+      // heart.style.color = 
     })
     .catch(e =>{
       const modal = document.getElementById("modal");
