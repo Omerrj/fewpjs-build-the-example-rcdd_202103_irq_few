@@ -17,8 +17,6 @@ const like=(e) =>{
         heart.innerText=EMPTY_HEART
         heart.style.color = ''
       }
-
-       
     })
     .catch(e =>{
       const modal = document.getElementById("modal");
