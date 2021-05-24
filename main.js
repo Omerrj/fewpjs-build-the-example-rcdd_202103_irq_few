@@ -4,7 +4,7 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-const glyphs=document.getElementsByClassName('like-glyphs');
+const glyphs=document.getElementsByClassName('like-glyphs')[0];
 const like=(e) =>{
   const heart = e.target;
   mimicServerCall("url")
