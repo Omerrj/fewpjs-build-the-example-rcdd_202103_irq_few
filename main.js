@@ -22,8 +22,7 @@ const like=(e) =>{
 }
 
 [...glyphs].forEach((glyph)=>{
-  glyph.onclick=(e)=>
-    like(e);
+  glyph.onclick=(e)=>like(e);
   
 })
 
